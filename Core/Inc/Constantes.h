@@ -10,6 +10,7 @@
 // Serial
 
 #include "Debug.h"
+#include <stdbool.h>
 
 // Constantes
 
