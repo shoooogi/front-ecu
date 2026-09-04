@@ -8,12 +8,6 @@
  * 0.5V à 4.5V
  * 0 MPa à 60 MPa
  *
- * FreeRTOS:
- * - Todas as funções são seguras para chamada concorrente por múltiplas tasks
- *   (o estado interno é protegido por seções críticas e o acesso ao ADC é
- *   serializado por um mutex).
- * - As funções são destinadas a contexto de task; não chamar a partir de ISR.
- *
 */
 
 #ifndef FREIO_H
